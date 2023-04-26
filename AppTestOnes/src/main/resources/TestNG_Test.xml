@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" parallel="instances" thread-count="3" time-out="700000">
+    <!--    <test name="Regression1">-->
+    <!--        <classes>-->
+    <!--            <class name="AppAuto_OtaTest.Ota_Test01"/>-->
+    <!--            <class name="AppAuto_OtaTest.Ota_Test02"/>-->
+    <!--&lt;!&ndash;            <class name="AppAuto_OtaTest.Ota_Test03"/>&ndash;&gt;-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <listeners>
+        <!--    <listener class-name=""></listener>    -->
+    </listeners>
+
+    <test name="Test011">
+        <parameter name="data1" value="1555  15616"/>
+        <parameter name="data2" value="784681564"/>
+        <classes>
+            <class name="AppAuto_OtaTest.TestNG_Test"></class>
+        </classes>
+    </test>
+</suite>

@@ -3,9 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/AppTest002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AppTest002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AppTest002/src/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AppTest002/src/resources/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AppTestOnes/AppTest002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AppTestOnes/AppTest002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AppTestOnes/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AppTestOnes/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AppTestOnes/src/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AppTestOnes/src/resources/java" charset="UTF-8" />
   </component>
 </project>
