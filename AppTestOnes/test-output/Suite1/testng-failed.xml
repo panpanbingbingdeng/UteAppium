@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" time-out="700000" parallel="classes" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test time-out="700000" thread-count="3" parallel="classes" name="Regression1(failed)">
+    <classes>
+      <class name="AppAuto_OtaTest.Ota_Test02">
+        <methods>
+          <include name="Test_OTA"/>
+          <include name="Test_end"/>
+          <include name="Test_Start"/>
+        </methods>
+      </class> <!-- AppAuto_OtaTest.Ota_Test02 -->
+      <class name="AppAuto_OtaTest.Ota_Test04">
+        <methods>
+          <include name="Test_Start"/>
+          <include name="Test_end"/>
+          <include name="Test_OTA"/>
+        </methods>
+      </class> <!-- AppAuto_OtaTest.Ota_Test04 -->
+      <class name="AppAuto_OtaTest.Ota_Test03">
+        <methods>
+          <include name="Test_end"/>
+          <include name="Test_OTA"/>
+          <include name="Test_Start"/>
+        </methods>
+      </class> <!-- AppAuto_OtaTest.Ota_Test03 -->
+      <class name="AppAuto_OtaTest.Ota_Test01">
+        <methods>
+          <include name="Test_Start"/>
+          <include name="Test_OTA"/>
+          <include name="Test_end"/>
+        </methods>
+      </class> <!-- AppAuto_OtaTest.Ota_Test01 -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
